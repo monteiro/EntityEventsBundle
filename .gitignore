@@ -10,3 +10,4 @@
 ###< friendsofphp/php-cs-fixer ###
 
 vendor
+.phpunit.cache
