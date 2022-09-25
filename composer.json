@@ -1,0 +1,30 @@
+{
+  "name": "monteiro/entity-events-bundle",
+  "type": "symfony-bundle",
+  "description": "Provides a tight integration between Symfony components and the Symfony full-stack framework",
+  "keywords": [],
+  "homepage": "https://github.com/monteiro/EntityEventsBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hugo Monteiro",
+      "email": "hugo.monteiro@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "symfony/clock": "6.2.x-dev"
+  },
+  "require-dev": {
+    "doctrine/orm": "^2.13",
+    "friendsofphp/php-cs-fixer": "^3.11",
+    "symfony/phpunit-bridge": "^6.1"
+  },
+  "autoload": {
+    "psr-4": { "Monteiro\\EntityEventsBundle\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Monteiro\\EntityEventsBundle\\Tests\\": "tests/" }
+  },
+  "minimum-stability": "dev"
+}
